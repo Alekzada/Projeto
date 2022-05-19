@@ -16,7 +16,7 @@
 <body>
     <!--Início Menu-->
     <header id="header">
-        <a id="logo" href="index.html"><img src="img/senai_small.jpg" alt="Logo da Empresa"></a>
+        <a id="logo" href="index.html"><img src="img/icon.png" alt="Logo da Empresa"></a>
         <nav id="nav">
             <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburguer"></span>
@@ -29,5 +29,46 @@
         </nav>
     </header>
     <!--Fim do Menu-->
+    <!--Início Carousel Página Principal-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="700">
+                <img src="img/lol.jpg" class="d-block w-100" alt="banner 1"/>
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="img/lol2.jpg" class="d-block w-100" alt="banner 2"/>
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="img/lol3.jpg" class="d-block w-100" alt="banner 3"/>
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/lol4.jpg" class="d-block w-100" alt="banner 4"/>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+            class="carousel-control-next"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Fim do Carousel da Página-->
 </body>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </html>
