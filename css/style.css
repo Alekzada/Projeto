@@ -1,5 +1,5 @@
-/*Aula 12 - 17/05/22*/
 @charset "utf-8";
+/*Aula 12 - 17/05/22*/
 
 body{
     background-color: #363636;
@@ -83,4 +83,36 @@ a:hover{
     background-color: #fff;
     padding: 4px 14px;
     font-size: 15px;
+}
+
+/*Fim do CSS Banner*/
+
+/*CSS Destaque*/
+.destaque h2{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destaque p{
+    width: 77%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 30px auto;
+}
+.destaque figcaption{
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.destaque a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: rgb(11,11,135);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0;
 }
