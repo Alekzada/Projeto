@@ -1,31 +1,31 @@
 @charset "utf-8";
 /*Aula 12 - 17/05/22*/
 
-body{
+body {
     background-color: #363636;
 }
 
-body, ul{
+body, ul {
     margin: 0px;
     padding: 0px;
 }
 
-#menu a{
+#menu a {
     color: #fff;
     text-decoration: none;
     font-family: sans-serif;
 }
 
-a:hover{
+a:hover {
     background: rgba(0, 0, 0, 0.05);
     font-size: 20px;
 }
 
-#logo{
+#logo {
     font-size: 1.5rem;
 }
 
-#header{
+#header {
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
@@ -35,23 +35,25 @@ a:hover{
     background-color: #1C1C1C;
 }
 
-#menu{
+#menu {
     display: flex;
     list-style: none;
     gap: 0.5rem;
 }
 
-#btn-mobile{
+#btn-mobile {
     display: none;
 }
 
-#carouselExampleInterval{
+#carouselExampleInterval {
     position: relative;
     z-index: 10;
     padding-top: 60px;
 }
+
 /*CSS Banner*/
-.section-banner-home{
+
+.section-banner-home {
     width: 100%;
     height: 500px;
     padding: 50px;
@@ -59,26 +61,31 @@ a:hover{
     background: rgb(11,11,135);
     background: linear-gradient(90deg, rgba(11,11,135,1) 23%, rgba(2,0,36,1) 45%, rgba(220,20,60,1) 100%);
 }
-.section-banner-home img{
+
+.section-banner-home img {
     height: 400px;
 }
-.section-banner-home .texto-banner{
+
+.section-banner-home .texto-banner {
     margin-top: 30px;
     font-size: 22px;
 }
-.section-banner-home .texto-banner h1{
+
+.section-banner-home .texto-banner h1 {
     font-size: 30px;
     width: 60%;
     font-weight: 500;
     padding-bottom: 20px;
     color: #fff;
 }
-.section-banner-home .texto-banner p{
+
+.section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px;
     color: #fff;
 }
-.section-banner-home .texto-banner a{
+
+.section-banner-home .texto-banner a {
     color: #000;
     text-decoration: none;
     background-color: #fff;
@@ -89,26 +96,30 @@ a:hover{
 /*Fim do CSS Banner*/
 
 /*CSS Destaque*/
-.destaque h2{
+
+.destaque h2 {
     text-align: center;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
 }
-.destaque p{
+
+.destaque p {
     width: 77%;
     text-align: center;
     color: #fff;
     font-size: 14px;
     margin: 30px auto;
 }
-.destaque figcaption{
+
+.destaque figcaption {
     font-size: 13px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
-.destaque a{
+
+.destaque a {
     justify-content: center;
     display: flex;
     text-decoration: none;
@@ -117,23 +128,29 @@ a:hover{
     font-weight: bold;
     margin: 30px 0;
 }
-.destaque img{
+
+.destaque img {
     width: 100%;
 }
+
 /*CSS Novidades*/
-.novidades .text-body{
+
+.novidades .text-body {
     width: 80%;
     margin: 70px auto;
 }
-.novidades h2{
+
+.novidades h2 {
     color: #fff;
     font-size: 26px;
     width: 70%;
 }
-.novidades p{
+
+.novidades p {
     color: #fff;
 }
-.novidades a{
+
+.novidades a {
     color: #000;
     text-decoration: underline;
     text-decoration-color: #000;
@@ -141,4 +158,5 @@ a:hover{
     background-color: #fff;
     font-weight: 400;
 }
+
 /*CSS das Novidades*/
