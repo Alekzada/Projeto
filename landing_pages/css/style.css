@@ -52,7 +52,7 @@ header {
 .menu-header a:hover:not(.botao) {
     font-size: 1.6em;
     transition: 0.3s;
-    text-shadow: 4px 4px 6px #000007;
+    text-shadow: 4px 4px 6px #0000007a;
 }
 
 .botao {
@@ -62,4 +62,52 @@ header {
     text-align: center;
     line-height: 47px;
     font-size: 1.5em !important;
+    border: solid 1px #080324;
+}
+
+.botao:hover {
+    font-size: 1.6em !important;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+
+.menu-barras {
+    display: none;
+}
+
+.banner {
+    background-image: url(../img/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo-banner {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.linha-amarela {
+    border: solid 1px #FFAF00;
+}
+
+.mouse {
+    width: 80px;
 }
