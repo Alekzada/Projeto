@@ -1,294 +1,65 @@
-@charset "utf-8";
-/*Aula 12 - 17/05/22*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #363636;
+    font-family: 'Bebas Neue';
 }
 
-body, ul {
-    margin: 0px;
-    padding: 0px;
+.container-grid {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-#menu a {
-    color: #fff;
-    text-decoration: none;
-    font-family: sans-serif;
+header {
+    background-color: blueviolet;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
 }
 
-a:hover {
-    background: rgba(0, 0, 0, 0.05);
-    font-size: 20px;
-}
-
-#logo {
-    font-size: 1.5rem;
-}
-
-#header {
-    box-sizing: border-box;
-    height: 70px;
-    padding: 1rem;
+.conteudo-header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #1C1C1C;
+    height: 100%;
+    align-items: center;
 }
 
-#menu {
-    display: flex;
-    list-style: none;
-    gap: 0.5rem;
+.logo {
+    height: 60px;
 }
 
-#btn-mobile {
-    display: none;
-}
-
-#carouselExampleInterval {
-    position: relative;
-    z-index: 10;
-    padding-top: 50px;
-}
-
-/*Começo da Responsividade Menu Hamburguer*/
-
-@media screen and (max-width: 600px) {
-    #menu {
-        display: block;
-        position: absolute;
-        width: 15em;
-        top: 70px;
-        right: 0px;
-        background: #1C1C1C;
-        transition: 0.6s;
-        z-index: 1000;
-        height: 0px;
-        padding-left: 5px;
-        visibility: hidden;
-        overflow-y: hidden;
-    }
-    #menu li {
-        padding-top: 30px;
-        padding-bottom: 0px;
-        margin: 0 1rem;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-    }
-    #nav.active #menu {
-        height: calc(100vh - 70px);
-        visibility: visible;
-        overflow-y: hidden;
-    }
-    #btn-mobile {
-        display: flex;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        border: none;
-        background: none;
-        cursor: pointer;
-        gap: 0.5rem;
-    }
-    #hamburguer {
-        border-top: 2px solid;
-        width: 25px;
-        color: #fff;
-    }
-    #hamburguer::after,
-    #hamburguer::before {
-        content: "";
-        display: block;
-        width: 25px;
-        height: 2px;
-        background: #fff;
-        margin-top: 5px;
-        transition: 0.3s;
-        position: relative;
-    }
-    #nav.active #hamburguer {
-        border-top-color: transparent;
-    }
-    #nav.active #hamburguer::before {
-        transform: rotate(135deg);
-    }
-    #nav.active #hamburguer::after {
-        transform: rotate(-135deg);
-        top: -7px;
-    }
-}
-
-/*CSS Banner*/
-
-.section-banner-home {
-    width: 100%;
-    height: 500px;
-    padding: 50px;
-    margin-top: 15px;
-    background: rgb(11,11,135);
-    background: linear-gradient(90deg, rgba(11,11,135,1) 23%, rgba(2,0,36,1) 45%, rgba(220,20,60,1) 100%);
-}
-
-.section-banner-home img {
-    height: 400px;
-}
-
-.section-banner-home .texto-banner {
-    margin-top: 30px;
-    font-size: 22px;
-}
-
-.section-banner-home .texto-banner h1 {
-    font-size: 30px;
-    width: 60%;
-    font-weight: 500;
-    padding-bottom: 20px;
-    color: #fff;
-}
-
-.section-banner-home .texto-banner p {
-    font-size: 15px;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.section-banner-home .texto-banner a {
-    color: #000;
-    text-decoration: none;
-    background-color: #fff;
-    padding: 4px 14px;
-    font-size: 15px;
-}
-
-/*Fim do CSS Banner*/
-
-/*CSS Destaque*/
-
-.destaque h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.destaque p {
-    width: 77%;
-    text-align: center;
-    color: #fff;
-    font-size: 14px;
-    margin: 30px auto;
-}
-
-.destaque figcaption {
-    font-size: 13px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.destaque a {
-    justify-content: center;
-    display: flex;
-    text-decoration: none;
-    color: rgb(11,11,135);
-    font-size: 18px;
-    font-weight: bold;
-    margin: 30px 0;
-}
-
-.destaque img {
-    width: 100%;
-}
-
-/*CSS Novidades*/
-
-.novidades .text-body {
-    width: 80%;
-    margin: 70px auto;
-}
-
-.novidades h2 {
-    color: #fff;
-    font-size: 26px;
-    width: 70%;
-}
-
-.novidades p {
-    color: #fff;
-}
-
-.novidades a {
-    color: #000;
-    text-decoration: underline;
-    text-decoration-color: #000;
-    padding: 6px 12px;
-    background-color: #fff;
-    font-weight: 400;
-}
-
-/*Fim CSS das Novidades*/
-
-/*CSS Galeria*/
-
-.galeria {
-    margin: 60px auto 20px;
-}
-
-.galeria h2 {
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-}
-.galeria p {
-    text-align: center;
+.menu-header {
     width: 50%;
-    margin: 14px auto 50px;
-    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
 }
 
-.galeria .gallery {
-    width: 30%;
-    margin: 14px auto 50px;
-}
-
-/*CSS Footer*/
-
-.rodape img {
-    width: 40%;
-}
-
-.rodape {
-    padding: 50px 50px 0;
-    background: #1C1C1C;
-}
-
-.rodape .info-contato p {
-    margin: 0px;
-}
-
-.rodape a {
+.menu-header a {
+    color: white;
     text-decoration: none;
-    color: #fff;
-    font-size: 13px;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
 }
 
-.rodape a:hover {
-    font-weight: bold;
+.menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px #000007;
 }
 
-.rodape .redes-sociais {
-    display: inline-block;
-}
-
-.rodape .redes-sociais img {
-    width: 45px;
-    height: 40px;
-}
-
-.rodape p {
-    color: #fff;
-}
-
-.rodape p.direitos {
+.botao {
+    background-color: #A259F7;
+    height: 45px;
+    width: 150px;
     text-align: center;
-    margin-top: 40px;
-    color: #fff;
+    line-height: 47px;
+    font-size: 1.5em !important;
 }
