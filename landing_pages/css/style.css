@@ -108,6 +108,14 @@ h1 {
     border: solid 1px #FFAF00;
 }
 
+.titulo-games {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9003d;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 .mouse {
     width: 80px;
 }
