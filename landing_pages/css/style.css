@@ -10,6 +10,8 @@ body {
     font-family: 'Bebas Neue';
 }
 
+/*Início CSS MENU*/
+
 .container-grid {
     width: 85%;
     max-width: 1200px;
@@ -79,6 +81,10 @@ header {
     display: none;
 }
 
+/*Fim CSS MENU*/
+
+/*Início CSS Banner*/
+
 .banner {
     background-image: url(../img/lol4.jpg);
     height: 768px;
@@ -120,3 +126,150 @@ h1 {
 .mouse {
     width: 80px;
 }
+
+/* CSS Projetos */
+
+.sobre-projetos {
+    background-color: #080324;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sobre-projetos h2 {
+    color: #f9003d;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+/*Fim CSS Projetos*/
+
+/*Início CSS Sobre*/
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.imagem-sobre {
+    width: 40%;
+}
+
+.texto-sobre {
+    width: 50%;
+}
+
+.texto-participantes {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.conteudo-sobre h3 {
+    color: #FFAF00;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.texto-sobre p {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+/*Fim CSS Sobre*/
+
+/*Início CSS Info*/
+
+.info {
+    background-image: url(../img/imggalerry4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.conteudo-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.card-info h3 {
+    color: #ffffff;
+}
+
+.card-info p {
+    color: #a259f7;
+    font-size: 22px;
+    font-weight: 600;
+    border: solid 2px #a259f7;
+    width: 250px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.endereco {
+    padding: 40px 0;
+    background-image: url(../img/imggalerry3.jpg);
+}
+
+.conteudo-endereco {
+    margin: 0 auto;
+    max-width: 850px;
+    position: relative;
+}
+
+.conteudo-endereco h2 {
+    color: #FFAF00;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.texto-endereco {
+    color: #a259f7;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #010010;
+    border: solid 2px #a259f7;
+    padding: 55px 55px;
+}
+
+.texto-endereco p {
+    width: 400px;
+    font-size: 20px;
+}
+
+.mapa {
+    margin-top: 10px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+
+/*Fim do CSS Info*/
+
+/*Início Footer*/
+
+footer {
+    height: 80px;
+    background-color: #f9003d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    text-align: center;
+}
+
+/*Fim do CSS Footer*/
