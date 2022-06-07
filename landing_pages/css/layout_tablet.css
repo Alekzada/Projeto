@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* Início CSS Menu */
+
+.menu-header {
+    width: 60%;
+}
+
+/* Fim do CSS Menu */
+
+/* Início do CSS Sobre */
+
+.conteudo-sobre {
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-sobre {
+    width: 80%;
+}
+
+.texto-sobre {
+    width: 80%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    justify-content: space-between;
+}
+
+/* Fim do CSS Sobre */
+
+/* Início do CSS Info */
+
+.conteudo-info {
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Fim do CSS Info */
+
+/* Início do CSS Endereço */
+
+.conteudo-endereco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 660px;
+    justify-content: space-between;
+}
+
+.conteudo-endereco h2 {
+    align-self: flex-start;
+}
+
+.texto-endereco p {
+    width: 100%;
+}
+
+.container-mapa {
+    position: unset;
+    width: 400px;
+}
+
+.container-video {
+    position: unset;
+    width: 400px;
+}
+
+/* Fim do CSS Endereço */

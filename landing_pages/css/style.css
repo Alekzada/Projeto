@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
@@ -19,6 +21,7 @@ body {
 }
 
 header {
+    z-index: 1;
     background: #1a1a1d;
     height: 80px;
     position: fixed;
@@ -85,7 +88,7 @@ header {
 /*Início CSS Banner*/
 
 .banner {
-    background-image: url(../img/lolbaixo.jpg);
+    background-image: url(../img/lol4teste.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -207,18 +210,19 @@ h1 {
 }
 
 .card-info p {
-    color: #a259f7;
+    color: #f9003d;
     font-size: 22px;
     font-weight: 600;
-    border: solid 2px #a259f7;
+    border: solid 2px #f9003d;
     width: 250px;
     padding: 30px 0;
     text-align: center;
 }
 
 .endereco {
-    padding: 40px 0;
-    background-image: url(../img/lolalto.jpg);
+    background-image: url(../img/lol3teste.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .conteudo-endereco {
@@ -234,10 +238,10 @@ h1 {
 }
 
 .texto-endereco {
-    color: #a259f7;
+    color: #f9003d;
     font-family: 'Courier New', Courier, monospace;
     background-color: #010010;
-    border: solid 2px #a259f7;
+    border: solid 2px #f9003d;
     padding: 55px 55px;
 }
 
@@ -261,6 +265,23 @@ h1 {
    right: 0;
    width: 100%;
    height: 100%;
+}
+
+.container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.video-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*Fim do CSS Info*/
