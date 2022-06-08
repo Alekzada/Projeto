@@ -73,11 +73,3 @@
 }
 
 /* Fim do CSS Responsivo */
-
-/* Início do CSS Min Width */
-
-@media screen and (min-width: 1200px) {
-    .menu-header {
-        display: flex !important;
-    }
-}
