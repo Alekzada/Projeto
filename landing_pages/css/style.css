@@ -85,6 +85,15 @@ header {
 
 /*Fim CSS MENU*/
 
+/* Início CSS Whats */
+
+.logo-whats {
+    height: 20px;
+    position: fixed;
+}
+
+/* Fim CSS Whats */
+
 /*Início CSS Banner*/
 
 .banner {
