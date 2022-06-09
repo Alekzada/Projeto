@@ -87,9 +87,24 @@ header {
 
 /* Início CSS Whats */
 
-.logo-whats {
-    height: 20px;
+.whatsapp {
     position: fixed;
+    z-index: 2;
+    top: 600px;
+    right: 40px;
+}
+
+.whatsapp img {
+    height: 37px;
+}
+
+.texto-whats p {
+    position: fixed;
+    z-index: 2;
+    top: 638px;
+    right: 30px;
+    text-align: center;
+    color: #ffffff;
 }
 
 /* Fim CSS Whats */
