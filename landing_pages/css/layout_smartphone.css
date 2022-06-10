@@ -54,13 +54,33 @@
     
     .container-mapa {
         width: 100%;
-        margin-top: 30px;
+        margin-top: 10px;
+    }
+
+    .mapa {
+        position: absolute;
+        margin-top: 10px;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 850px;
+        height: 200px;
     }
     
     .container-video {
         width: 100%;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .video-responsivo {
+        position: absolute;
+        margin-top: 10px;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 850px;
+        height: 200px;
+        border: none;
     }
 
     /*Fim do CSS Endereço */
