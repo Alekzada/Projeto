@@ -90,7 +90,7 @@ header {
 .whatsapp {
     position: fixed;
     z-index: 2;
-    top: 600px;
+    top: 900px;
     right: 40px;
 }
 
@@ -101,7 +101,7 @@ header {
 .texto-whats p {
     position: fixed;
     z-index: 2;
-    top: 638px;
+    top: 938px;
     right: 30px;
     text-align: center;
     color: #ffffff;
@@ -306,6 +306,7 @@ h1 {
     right: 0;
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 /*Fim do CSS Info*/

@@ -60,6 +60,7 @@
     .container-video {
         width: 100%;
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     /*Fim do CSS Endereço */
@@ -71,6 +72,16 @@
     }
 
     /* Fim do CSS Info */
+
+    /* Início CSS Whats */
+
+    .whatsapp {
+        top: 800px;
+    }
+
+    .texto-whats p {
+        top: 838px;
+    }
 }
 
 /* Fim do CSS Responsividade */
