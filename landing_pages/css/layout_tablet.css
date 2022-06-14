@@ -57,7 +57,51 @@
     width: 100%;
 }
 
+.container-mapa {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.mapa {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.video-responsivo {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 850px;
+    height: 200px;
+}
+
 /* Fim do CSS Endereço */
 }
 
 /* Fim do CSS Responsivo */
+
+/* Início Min */
+
+@media screen and (min-width: 1200px) {
+    .menu-header {
+        display: flex !important;
+    }
+}
