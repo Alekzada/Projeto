@@ -330,11 +330,3 @@ footer span {
 }
 
 /*Fim do CSS Footer*/
-
-/*Início do Carousel*/
-
-#carouselExampleInterval {
-    position: relative;
-    z-index: 10;
-    padding-top: 50px;
-}
